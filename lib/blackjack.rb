@@ -5,7 +5,8 @@ end
 
 def deal_card
   # code #deal_card here
-  return rand(1..11)
+  card = rand(1..11)
+  return card
 end
 
 def display_card_total(card_total)
@@ -39,7 +40,12 @@ def hit?(x)
   # code hit? here
   prompt_user
   get_user_input
-  
+  if get_user_input == "h"
+    deal_card
+
+
+  end
+
 end
 
 def invalid_command
