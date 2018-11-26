@@ -48,11 +48,6 @@ def hit?(x)
   else
     invalid_command
   end
-
-
-
-  end
-
 end
 
 def invalid_command
