@@ -42,6 +42,13 @@ def hit?(x)
   get_user_input
   if get_user_input == "h"
     new_total = card + deal_card
+    return new_total
+  elsif get_user_input == "s"
+    Break
+  else
+    invalid_command
+  end
+
 
 
   end
